@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+ <?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
  <ShortName>https://yossi.search.windows.net</ShortName>
  <Description>search https://yossi.search.windows.net</Description>
- <Tags>yoss</Tags>
- <Url type="application/x-suggestions+json" 
-      template="https://yossi.search.windows.net/indexes/main/docs?search={searchTerms}"/>
- <Param name="api-version" value="2019-05-06"/>
- <Param name="api-key" value="9258A0FC9F35D22D9D4ED1E01556E2C6"/>
+  <InputEncoding>UTF-8</InputEncoding> 
+  <Contact>opensearch@test.org</Contact>
+   <Param name="api-version" value="2019-05-06" />
+ <Param name="api-key" value="9258A0FC9F35D22D9D4ED1E01556E2C6" />
+  <Url type="text/html" method="get" template="https://yossi.search.windows.net/indexes/main/docs?search={searchTerms}"/>
+  <moz:SearchForm>https://yossi.search.windows.net/</moz:SearchForm>
 </OpenSearchDescription>
- 
